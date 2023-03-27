@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2023_03_14_192327) do
 
   create_table "customers", force: :cascade do |t|
     t.text "name"
-    t.integer "phone"
+    t.string "phone"
   end
 
   create_table "desserts", force: :cascade do |t|

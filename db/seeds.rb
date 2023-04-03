@@ -12,7 +12,15 @@ end
 
 customers = Customer.all.map{|c| c.id}
 
-Dessert.create(flavor: "Apple", price: 20.00, customer_id: customers.sample)
+Dessert.create(
+    flavor: "Apple", 
+    price: 20.00, 
+    customer_id: customers.sample,
+    image: "https://gtpie.com/wp-content/uploads/2015/06/Front-Street-Apple_7339-600x600.jpg",
+    description: "Apples make this a good choice any time of year. Our homemade flaky pastry tops it off!"
+    )
+
+Dessert.create(flavor: "Apple Crumb", price: 20.00, customer_id: customers.sample)
 Dessert.create(flavor: "Cherry", price: 20.00, customer_id: customers.sample)
 Dessert.create(flavor: "Blueberry", price: 20.00, customer_id: customers.sample)
 Dessert.create(flavor: "Chocolate Cream", price: 30.00, customer_id: customers.sample)

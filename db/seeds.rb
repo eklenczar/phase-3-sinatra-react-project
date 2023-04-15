@@ -15,42 +15,42 @@ customers = Customer.all.map{|c| c.id}
 Dessert.create(
     flavor: "Apple", 
     price: 20.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Front-Street-Apple_7339-600x600.jpg",
     description: "Apples make this a good choice any time of year. Our homemade flaky pastry tops it off!"
     )
 Dessert.create(
     flavor: "Apple Crumb", 
     price: 20.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Peninsula-Apple-Crumb_7332-600x600.jpg",
     description: "Filled with apples that have been tossed with cinnamon and sugar, and finished with our toasty crumb topping."
     )
 Dessert.create(
     flavor: "Cherry", 
     price: 20.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Old-Mission-Cherry_7392-600x600.jpg",
     description: "Tasty cherries fill this pie with a tangy deliciousness, all baked into our flaky crust."
     )
 Dessert.create(
     flavor: "Cherry Crumb", 
     price: 20.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Grand-Traverse-Cherry-Crumb_7404-600x600.jpg",
     description: "Our top selling pie made with tart cherries, sweetened up with love and a toasty crumb topping."
     )
 Dessert.create(
     flavor: "Blueberry", 
     price: 20.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Suttons-Bay-Blueberry-Pastry_7503-600x600.jpg",
     description: "Sweet, plump blueberries are featured in our flaky pastry crust."
     )
 Dessert.create(
     flavor: "Blueberry Crumb", 
     price: 20.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/West-Bay-Blueberry-Crumb_7369-600x600.jpg",
     description: "This pie is bursting with summer-sweet, plump blueberries. The blues never tasted so good until they are finished with our toasty crumb topping."
     )

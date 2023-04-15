@@ -26,5 +26,5 @@ class CustomersController < ApplicationController
           phone: params[:phone]
         )
         customer.to_json
-      end
+    end
 end

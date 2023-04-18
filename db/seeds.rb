@@ -57,35 +57,35 @@ Dessert.create(
 Dessert.create(
     flavor: "Chocolate Cream", 
     price: 30.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Chocolate-Cream_7543-600x600.jpg",
     description: "Made with fresh milk, butter and eggs like in the good old days. Rich chocolate cream sits atop our flaky crust and then is finished with whipped topping and chocolate shavings."
     )
 Dessert.create(
     flavor: "Coconut Cream", 
     price: 30.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Coconut-Cream_7561-600x600.jpg",
     description: "Our delicious vanilla cream is full of coconut flakes, loaded into our flaky crust and finished with whipped topping and toasted coconut."
     )
 Dessert.create(
     flavor: "Banana Cream", 
     price: 30.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Banana-Cream_7568-600x600.jpg",
     description: "This pie is built from the bottom up. We start with our flaky crust, add a layer of sliced bananas, a layer of our creamy vanilla filling and finish it off with a yummy whipped topping. "
     )
 Dessert.create(
     flavor: "Peach", 
     price: 25.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Farmers-Market-Peach_7435-600x600.jpg",
     description: "Sweet peaches, brown sugar and vanilla baked to perfection with cinnamon and sugar sprinkled on top of our flaky crust sprinkled."
     )
 Dessert.create(
     flavor: "Peach Crumb", 
     price: 25.00, 
-    customer_id: customers.sample,
+    customer_id: nil,
     image: "https://gtpie.com/wp-content/uploads/2015/06/Glen-Haven-Peach-Crumb_7440-600x600.jpg",
     description: "A golden filling of luscious, tree-ripened peaches, brown sugar and vanilla. Baked to perfection finished with our toasty crumb topping."
     )

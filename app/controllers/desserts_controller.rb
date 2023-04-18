@@ -12,7 +12,7 @@ class DessertsController < ApplicationController
 
     get "/desserts/sold" do
         dessert = Dessert.all.select {|pie| pie.customer_id}
-        dessert.to_json
+        dessert.to_json(include: :customer)
     end
 
     patch '/desserts/:id' do
@@ -20,7 +20,7 @@ class DessertsController < ApplicationController
         dessert.update(
           customer_id: params[:customer_id]
         )
-        dessert.to_json
+        dessert.to_json(include: :customer)
     end
 
 end
